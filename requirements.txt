@@ -1,0 +1,4 @@
+beautifulsoup4==4.12.2
+httpx==0.26.0
+trio==0.24.0
+colorama==0.4.6

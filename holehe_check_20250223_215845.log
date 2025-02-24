@@ -1,0 +1,54 @@
+2025-02-23 21:58:47,838 - INFO - Starting check for email: patricioquintanilladx@gmail.com
+2025-02-23 21:58:48,282 - INFO - Loaded 15 modules to check
+2025-02-23 21:58:48,283 - INFO - Starting check for discord
+2025-02-23 21:58:48,556 - INFO - HTTP Request: POST https://discord.com/api/v8/auth/register "HTTP/1.1 400 Bad Request"
+2025-02-23 21:58:48,557 - INFO - Completed check for discord
+2025-02-23 21:58:49,062 - INFO - Starting check for github
+2025-02-23 21:58:50,217 - INFO - HTTP Request: GET https://github.com/join "HTTP/1.1 302 Found"
+2025-02-23 21:58:50,219 - ERROR - Error in github: list index out of range
+2025-02-23 21:58:50,220 - INFO - Starting check for instagram
+2025-02-23 21:58:50,663 - INFO - HTTP Request: GET https://www.instagram.com/accounts/emailsignup/ "HTTP/1.1 429 Too Many Requests"
+2025-02-23 21:58:50,663 - INFO - Completed check for instagram
+2025-02-23 21:58:51,177 - INFO - Starting check for twitter
+2025-02-23 21:58:51,749 - INFO - HTTP Request: GET https://api.twitter.com/i/users/email_available.json?email=patricioquintanilladx%40gmail.com "HTTP/1.1 200 OK"
+2025-02-23 21:58:51,751 - INFO - Completed check for twitter
+2025-02-23 21:58:52,253 - INFO - Starting check for snapchat
+2025-02-23 21:58:52,474 - INFO - HTTP Request: GET https://accounts.snapchat.com "HTTP/1.1 301 Moved Permanently"
+2025-02-23 21:58:52,475 - ERROR - Error in snapchat: list index out of range
+2025-02-23 21:58:52,476 - INFO - Starting check for adobe
+2025-02-23 21:58:52,903 - INFO - HTTP Request: POST https://auth.services.adobe.com/signin/v1/authenticationstate "HTTP/1.1 200 OK"
+2025-02-23 21:58:53,086 - INFO - HTTP Request: GET https://auth.services.adobe.com/signin/v2/challenges?purpose=passwordRecovery "HTTP/1.1 200 OK"
+2025-02-23 21:58:53,087 - INFO - Completed check for adobe
+2025-02-23 21:58:53,594 - INFO - Starting check for wordpress
+2025-02-23 21:58:54,050 - INFO - HTTP Request: GET https://public-api.wordpress.com/rest/v1.1/users/patricioquintanilladx@gmail.com/auth-options?http_envelope=1&locale=fr "HTTP/1.1 200 OK"
+2025-02-23 21:58:54,050 - INFO - Completed check for wordpress
+2025-02-23 21:58:54,562 - INFO - Starting check for voxmedia
+2025-02-23 21:58:55,071 - INFO - HTTP Request: POST https://auth.voxmedia.com/chorus_auth/email_valid.json "HTTP/1.1 200 OK"
+2025-02-23 21:58:55,072 - INFO - Completed check for voxmedia
+2025-02-23 21:58:55,578 - INFO - Starting check for hubspot
+2025-02-23 21:58:55,778 - INFO - HTTP Request: POST https://api.hubspot.com/login-api/v1/login "HTTP/1.1 400 Bad Request"
+2025-02-23 21:58:55,779 - INFO - Completed check for hubspot
+2025-02-23 21:58:56,282 - INFO - Starting check for zoho
+2025-02-23 21:58:56,785 - INFO - HTTP Request: GET https://accounts.zoho.com/register "HTTP/1.1 200 "
+2025-02-23 21:58:56,956 - INFO - HTTP Request: POST https://accounts.zoho.com/signin/v2/lookup/patricioquintanilladx@gmail.com "HTTP/1.1 200 "
+2025-02-23 21:58:56,958 - INFO - Completed check for zoho
+2025-02-23 21:58:57,470 - INFO - Starting check for insightly
+2025-02-23 21:58:58,657 - INFO - HTTP Request: POST https://accounts.insightly.com/signup/isemailvalid "HTTP/1.1 200 OK"
+2025-02-23 21:58:58,658 - INFO - Completed check for insightly
+2025-02-23 21:58:59,164 - INFO - Starting check for nimble
+2025-02-23 21:58:59,349 - INFO - HTTP Request: GET https://www.nimble.com/lib/register.php?email=patricioquintanilladx@gmail.com "HTTP/1.1 403 Forbidden"
+2025-02-23 21:58:59,351 - INFO - Completed check for nimble
+2025-02-23 21:58:59,855 - INFO - Starting check for pipedrive
+2025-02-23 21:58:59,885 - INFO - HTTP Request: POST https://app.pipedrive.com/signup-service/start "HTTP/1.1 403 Forbidden"
+2025-02-23 21:58:59,886 - INFO - Completed check for pipedrive
+2025-02-23 21:59:00,403 - INFO - Starting check for google
+2025-02-23 21:59:00,628 - INFO - HTTP Request: GET https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp "HTTP/1.1 302 Moved Temporarily"
+2025-02-23 21:59:00,630 - INFO - Completed check for google
+2025-02-23 21:59:01,137 - INFO - Starting check for yahoo
+2025-02-23 21:59:02,254 - INFO - HTTP Request: GET https://login.yahoo.com "HTTP/1.1 200 OK"
+2025-02-23 21:59:03,249 - INFO - HTTP Request: POST https://login.yahoo.com/?.src=fpctx&.intl=ca&.lang=en-CA&.done=https%3A%2F%2Fca.yahoo.com "HTTP/1.1 200 OK"
+2025-02-23 21:59:03,250 - INFO - Completed check for yahoo
+2025-02-23 21:59:03,759 - INFO - Account found on twitter
+2025-02-23 21:59:03,760 - INFO - Account found on adobe
+2025-02-23 21:59:03,760 - INFO - Account found on wordpress
+2025-02-23 21:59:03,762 - INFO - Check completed
