@@ -23,11 +23,35 @@ async def main():
     client = httpx.AsyncClient(timeout=30.0)
     
     check_functions = [
-        discord, github, instagram, twitter, snapchat,  # social media
-        adobe, wordpress, voxmedia,  # cms
-        hubspot, zoho, insightly, nimble, pipedrive,  # crm
-        google, yahoo,  # mails
-    ]
+    bitmoji, crevado, discord, facebook, fanpop, imgur, instagram, myspace, odnoklassniki,
+    parler, patreon, pinterest, plurk, snapchat, strava, taringa, tellonym, tumblr, twitter,
+    vsco, wattpad, xing,  # social media
+    atlassian, gravatar, voxmedia, wordpress,  # cms
+    amocrm, axonaut, hubspot, insightly, nimble, nocrm, nutshell, pipedrive, teamleader, zoho,  # crm
+    google, laposte, mail_ru, protonmail, yahoo,  # mails
+    babeshows, badeggsonline, biosmods, biotechnologyforums, blackworldforum, blitzortung,
+    bluegrassrivals, cambridgemt, chinaphonearena, clashfarmer, codeigniter, cpaelites,
+    cpahero, cracked_to, demonforums, freiberg, koditv, mybb, nattyornot, ndemiccreations,
+    nextpvr, onlinesequencer, thecardboard, therianguide, thevapingforum,  # forums
+    ello, flickr, komoot, rambler, sporcle,  # media
+    blip, lastfm, smule, soundcloud, spotify, tunefind,  # music
+    pornhub, redtube, xnxx, xvideos,  # porn
+    aboutme,  # company
+    buymeacoffee,  # crowdfunding
+    coroflot, freelancer, seoclerks,  # jobs
+    diigo, duolingo, quora,  # learning
+    caringbridge, sevencups,  # medical
+    rocketreach,  # osint
+    venmo,  # payment
+    anydo, evernote,  # productivity
+    eventbrite, nike, samsung,  # products
+    codecademy, codepen, devrant, github, replit, teamtreehouse,  # programming
+    vrbo,  # real estate
+    amazon, armurerieauxerre, deliveroo, dominosfr, ebay, envato, garmin, naturabuy, vivino,  # shopping
+    adobe, archive, docker, firefox, issuu, lastpass, office365,  # software
+    bodybuilding,  # sport
+    # blablacar  # transport
+]
     
     logging.info(f"Loaded {len(check_functions)} modules to check")
     print(Fore.YELLOW + f"\nChecking {len(check_functions)} websites..." + Style.RESET_ALL)
